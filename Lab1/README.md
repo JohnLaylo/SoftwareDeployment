@@ -25,15 +25,16 @@ az group create --name SoftwareDeploymentGroup --location "West Europe"
 Zum erstellen des Storage-Accounts wird das template-file `azuredeploy.json` als Vorlage verwendet. Der Storage-Account wird in der Ressourcengruppe `SoftwareDeploymentGroup` angelegt.
 
 ```
-az deployment group create -- laylostorage1 --resource-group SoftwareDeploymentGroup --template-file "azuredeploy.json"
+az deployment group create --name laylostorage1 --resource-group SoftwareDeploymentGroup --template-file "azuredeploy.json"
 ```
 
 ### Web-App anlegen
 Zum Anlegen der Web-App werden Paramters benötigt, die sich in dem Json-File `azuredeploy.parameters.json` befinden.
 
 ```
-az deployment group create -- laylostorageandwebapp1 --resource-group SoftwareDeploymentGroup --template-file "azuredeploy.json" --parameters "azuredeploy.parameters.json"
+az deployment group create --name laylostorageandwebapp1 --resource-group SoftwareDeploymentGroup --template-file "azuredeploy.json" --parameters "azuredeploy.parameters.json"
 ```
-
+### Webseite
+https://softwaredeploymentweb.azurewebsites.net/
 
 
