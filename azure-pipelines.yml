@@ -35,3 +35,7 @@ steps:
     appName: 'softwaredeploymentweb'
     package: '$(System.DefaultWorkingDirectory)'
     customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
