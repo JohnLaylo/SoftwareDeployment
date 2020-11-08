@@ -27,3 +27,11 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/test-*.xml'
     searchFolder: '$(Build.SourcesDirectory)/WebApp'
+    
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Azure für Bildungseinrichtungen(f8a40139-a419-4882-959c-5451cfb972b3)'
+    appType: 'webAppLinux'
+    appName: 'softwaredeploymentweb'
+    package: '$(System.DefaultWorkingDirectory)'
+    customWebConfig: '-Handler iisnode -NodeStartFile server.js -appType node'
