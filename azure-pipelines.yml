@@ -26,4 +26,4 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/test-*.xml'
-    searchFolder: 'WebApp'
+    searchFolder: '$(Build.SourcesDirectory)/WebApp'
