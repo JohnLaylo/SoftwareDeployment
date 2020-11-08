@@ -18,11 +18,12 @@ steps:
 
 - script: |
     npm install
-    cd WebApp
-    npm run test
+    npm test
   displayName: 'npm install and run test'
+  workingDirectory: '$(Build.SourcesDirectory)/WebApp'
   
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
+    testResultsFiles: '**/test-*.xml'
+    searchFolder: 'WebApp'
