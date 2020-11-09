@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0080" tests="1" failures="1">
-  <testsuite name="Root Suite" timestamp="2020-11-09T21:05:55" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0010" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-11-09T21:14:45" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Array" timestamp="2020-11-09T21:05:55" tests="0" file="D:\FH Wiener Neustadt(neu)\5.Semester\SoftwareDeployment\SoftwareDeployment\WebApp\test\test.js" time="0.0000" failures="0">
+  <testsuite name="Array" timestamp="2020-11-09T21:14:45" tests="0" file="D:\FH Wiener Neustadt(neu)\5.Semester\SoftwareDeployment\SoftwareDeployment\WebApp\test\test.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="#indexOf()" timestamp="2020-11-09T21:05:55" tests="1" file="D:\FH Wiener Neustadt(neu)\5.Semester\SoftwareDeployment\SoftwareDeployment\WebApp\test\test.js" time="0.0080" failures="1">
-    <testcase name="Array #indexOf() should return -1 when the value is not present" time="0.0080" classname="should return -1 when the value is not present">
-      <failure message="-1 == 1" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: -1 == 1
+  <testsuite name="#indexOf()" timestamp="2020-11-09T21:14:45" tests="1" file="D:\FH Wiener Neustadt(neu)\5.Semester\SoftwareDeployment\SoftwareDeployment\WebApp\test\test.js" time="0.0010" failures="1">
+    <testcase name="Array #indexOf() should return -1 when the value is not present" time="0.0010" classname="should return -1 when the value is not present">
+      <failure message="2 == -1" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: 2 == -1
     at Context.<anonymous> (test\test.js:5:14)
     at processImmediate (internal/timers.js:439:21)]]></failure>
     </testcase>
