@@ -32,10 +32,10 @@ steps:
   inputs:
     azureSubscription: 'Azure für Bildungseinrichtungen(f8a40139-a419-4882-959c-5451cfb972b3)'
     appType: 'webAppLinux'
-    appName: 'softwaredeploymentweb'
-    package: '$(System.DefaultWorkingDirectory)'
+    appName: 'WebAppLaylo1'
+    package: '$(System.DefaultWorkingDirectory)/WebApp'
     customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
     
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/WebApp'
