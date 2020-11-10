@@ -23,6 +23,7 @@ steps:
   workingDirectory: '$(Build.SourcesDirectory)/WebApp'
   
 - task: PublishTestResults@2
+  condition: succeededOrFailed()
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/test-*.xml'
