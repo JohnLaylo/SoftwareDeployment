@@ -1,0 +1,4 @@
+  
+CREATE DATABASE dbname;
+GRANT ALL PRIVILEGES ON dbname.* TO "dbuser"@"%" IDENTIFIED BY "dbpassword";
+FLUSH PRIVILEGES;
