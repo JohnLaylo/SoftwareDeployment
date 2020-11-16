@@ -1,5 +1,5 @@
 # Software Deployment Lab3
-## Von Jonh-Ervin Laylo
+## Von John-Ervin Laylo
 ### Task 
 Setzen Sie die Software „Wordpress“ mit externer MySQL DB in 2 Containern auf. Diese Aufgabe besteht aus 2 Teilen. In den Teilen wird jeweils die gleiche Software mittels container zu Verfügung gestellt, wobei die container in Teil 2 selbst zu erstellen sind.
 
@@ -31,7 +31,3 @@ Um es zu deployn wird der Command `docker build -t name .` benutzt, wobei `name`
 In dem File ist zu beachten, dass man die Richtigen Ports und Image Namen verwendet, die man gebuildet hat.
 
 Mit `Run docker-compose up` startet und führt es die gesamte Anwendung aus. 
-
-
-
-

@@ -1,5 +1,5 @@
 # Software Deployment Lab2
-## Von Jonh-Ervin Laylo
+## Von John-Ervin Laylo
 ### Task 
 
 Link zur WebApp mit der NodeJs Application: 
