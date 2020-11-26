@@ -22,7 +22,7 @@ Man muss die Dateien mysql-deployment.yaml und die wordpress-deployment.yaml auf
 
 Verbinden zum Account:
 
-`az account set --subscription f8a40139-a419-4882-959c-5451cfb972b3`
+`az account set --subscription ******************************`
 
 `az aks get-credentials --resource-group softwareDeploymentGroup --name myaks`
 
