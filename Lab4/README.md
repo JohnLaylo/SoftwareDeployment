@@ -35,3 +35,4 @@ Die Bereitstellung des WordPress-Pods und des MySQL-Pods:
 Zum kontrollieren kann man die IP über den Command abrufen und dann die external IP verwenden:
 
 `kubectl get services wordpress`
+IP: 51.137.9.68
